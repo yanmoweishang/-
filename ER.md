@@ -1,3 +1,10 @@
+<!-- ER 图（Mermaid） -->
+# 实体关系图（ER 图）
+
+下面使用 Mermaid 的实体关系图描述数据库表结构与关系：
+
+```mermaid
+erDiagram
     USERS {
         INT id PK "用户主键ID（自增）"
         VARCHAR username UK "登录用户名（唯一）"
